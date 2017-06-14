@@ -1,0 +1,75 @@
+<app-hotel-search-bar [isHotelSearchPageShow]="isHotelSearchPageShow" (onShowHotelSearchPage)="showHotelSearchPage($event)"></app-hotel-search-bar>
+<div class="scroll-content">
+  <div class="revenue-content-wrapper">
+    <div class="revenue-panel">
+      <div class="revenue-panel-title">
+        <label>昨日客房总收入</label><label>总出租房间数</label>
+      </div>
+      <div class="revenue-panel-content">
+        <label (click)="RouteToSummaryPage()">￥52,800.47</label><label>78</label>
+      </div>
+    </div>
+    <div class="revenue-list">
+      <div class="revenue-list-style-1">
+        <div class="border-right">
+          昨日出租率：97.44%
+        </div>
+        <div>
+          月客房收入：￥52,800.47
+        </div>
+      </div>
+      <div class="revenue-list-style-2 m-mt24">
+        <div class="revenue-list-style-border border-bottom">
+          <div class="title">
+            房态日历
+          </div>
+          <div class="content">
+            在住76/空房2/维修0/占用0
+          </div>
+        </div>
+      </div>
+      <div class="revenue-list-style-2">
+        <div class="revenue-list-style-border">
+          <div class="title">
+            我的房屋
+          </div>
+          <div class="content">
+            78套
+          </div>
+        </div>
+      </div>
+      <div class="revenue-list-style-2 m-mt24">
+        <div class="revenue-list-style-border">
+          <div class="title">
+            结算明细
+          </div>
+          <div class="content">
+            收益￥52,800.47/支出￥52,800.47
+          </div>
+        </div>
+      </div>
+      <div class="revenue-list-style-2 m-mt24">
+        <div class="revenue-list-style-border border-bottom">
+          <div class="title">
+            经营对比
+          </div>
+          <div class="content">
+            ￥52,800.47
+          </div>
+        </div>
+      </div>
+      <div class="revenue-list-style-2">
+        <div class="revenue-list-style-border">
+          <div class="title">
+            经营分析
+          </div>
+          <div class="content">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-fixed-bottom-menu></app-fixed-bottom-menu>
+<app-hotel-search-page [isHotelSearchPageShow]="isHotelSearchPageShow" (onCloseHotelSearchPage)="closeHotelSearchPage($event)"></app-hotel-search-page>

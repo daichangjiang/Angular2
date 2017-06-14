@@ -1,0 +1,14 @@
+<div class="search-wrapper" [ngClass]="{'move-in-from-right': isHotelSearchPageShow}">
+    <div class="search-bar-container">
+      <div class="side" (click)="closeHotelSearchPage()">
+        取消
+      </div>
+      <div class="center">
+        <input type="text" [value]="searchHotelName" [formControl]="searchHotelNameControl" />
+        <span class="search_clear icon-delete" *ngIf="searchHotelName.length > 0" (click)="clearInput()"></span>
+      </div>
+      <div class="side">
+        搜索
+      </div>
+    </div>
+</div>

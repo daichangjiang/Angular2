@@ -1,0 +1,42 @@
+.two-rows-list-wrapper{
+    padding: 0px 0.24rem;
+    background: white;
+}
+
+.two-rows-list-container{
+    border-bottom: 1px solid #DDD;
+}
+
+.two-rows-list-wrapper:last-child .two-rows-list-container{
+    border-bottom: none;
+}
+
+.two-rows-list-container>.price{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: orangered;
+}
+
+.two-rows-list-container>div>div:first-child{
+    float: left;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.two-rows-list-container>div>div:last-child{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.two-rows-list-container>.date{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+}
+
+
+
+

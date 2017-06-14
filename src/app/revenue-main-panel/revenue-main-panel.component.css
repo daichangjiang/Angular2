@@ -1,0 +1,105 @@
+.scroll-content{
+    padding: 0.98rem 0px;
+}
+
+.revenue-content-wrapper{
+    box-sizing: border-box;
+}
+
+.revenue-panel{
+    background: #2980B9;
+    color: white;
+    padding: 0px 0.24rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.revenue-panel-title{
+    font-size: 0.32rem;
+    margin: 0.48rem 0px;
+    overflow: hidden;
+}
+
+.revenue-panel-title>label:first-child{
+    float: left;
+    width: 60%;
+}
+
+.revenue-panel-title>label:last-child{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.revenue-panel-content{
+    font-size: 0.64rem;
+    margin: 0.48rem 0px;
+    overflow: hidden;
+}
+
+.revenue-panel-content>label:first-child{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.revenue-panel-content>label:last-child{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+.revenue-list-style-1{
+    padding: 0.16rem 0px;
+    background: white;
+    overflow: hidden;
+    font-size: 0.30rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.revenue-list-style-1>div{
+    float: left;
+    width: 50%;
+    white-space: nowrap;
+    padding: 0.16rem 0.16rem;
+    box-sizing: border-box;
+}
+
+.border-right{
+    border-right: 1px solid #DDD;
+}
+
+.m-mt24{
+    margin-top: 0.24rem;
+}
+.revenue-list-style-2{
+    background: white;
+    padding: 0px 0.16rem;
+}
+
+.revenue-list-style-border{
+    padding: 0.32rem 0px;
+    overflow: hidden;
+    font-size: 0.30rem;
+    box-sizing: border-box;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #DDD;
+}
+.revenue-list-style-border>div{
+    float: left;
+}
+
+.revenue-list-style-border>.title{
+    width: 30%;
+}
+
+.revenue-list-style-border>.content{
+    width: 70%;
+    font-size: 0.28rem;
+    text-align: right;
+    color: #999;
+}

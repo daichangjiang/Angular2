@@ -1,0 +1,73 @@
+/*底部导航*/
+
+.wrapper-nav {
+	width: 100%;
+	height: 1.18rem;
+}
+
+.nav {
+	font-size: .24rem;
+	border-top: 1px solid #E7E7E7;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	width: 100%;
+	max-width: 7.5rem;
+	height: 0.98rem;
+	background-color: #fff;
+}
+
+.nav .item .iconfont {
+	font-size: .45rem;
+	line-height: .45rem;
+	color: #828282;
+}
+
+.nav .item:first-child .iconfont,
+.nav .item:nth-child(2) .iconfont {
+	position: relative;
+	top: -.03rem;
+}
+
+.nav .item.act .iconfont,
+.nav .item.act .title {
+	color: #2c2f58;
+}
+
+.nav>.item {
+	width: 25%;
+	height: 100%;
+	position: relative;
+	float: left;
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.nav>.item .center {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.nav>.item .center>span:first-child {
+	margin-bottom: .04rem;
+}
+
+.nav>.item>span,
+.nav>.item>span>span {
+	display: block;
+	line-height: 1;
+}
+
+.nav>.item>.title {
+	color: #828282;
+	font-size: .18rem;
+	margin-top: .05rem;
+	text-align: center;
+}
